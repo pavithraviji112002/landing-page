@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    margin: 0%;
+}  
+a{
+    text-decoration: none;
+}
+.content1{
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Courgette',cursive;
+}
+.content{
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+header{
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    font-family: 'Roboto Slab', serif;;
+}
+.header-left{
+    float: left;
+    padding-left: 50px;
+}
+.header-right{
+    padding-top: 20px;
+    float: right;
+}
+.header-right a{
+    float: left;
+    line-height: 65px;
+    padding: 0 30px;
+    color: antiquewhite;
+    display: block;
+
+}
+.heading h1{
+    font-family: 'Roboto Mono', monospace;
+}
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    color: black;
+    text-align: center;
+}
+.image{
+    background-image: url(image2.jpg);
+    background-size: cover;
+    height: 760px;
+    width: 100%;
+}
+.content h1{
+    font-size: 60px;
+    color: azure;
+    line-height: 1;
+    font-weight: bold;
+}
+.top-wrapper.overlay:before{
+    background: rgba(17, 16, 16, 0.178);
+    content: "";
+    position: absolute;
+    height: 100vh;
+    min-height: 750px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.top-wrapper h1{
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.top-wrapper p{
+    opacity: 0.9;
+    margin-bottom: 3px;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.btn.uppercase{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.btn-outline-light{
+    color: antiquewhite;
+    background-color: transparent;
+    border-color: antiquewhite;
+}
+.btn-outline-light:hover{
+    color: black;
+    background-color: rgba(84, 190, 240, 0.849);
+    border-color: beige;
+}
+.copyright{
+    background-color: black;
+    padding: 9px;
+}
+.copyright p{
+    color: aliceblue;
+    text-align: center;
+}
+
